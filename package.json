@@ -16,13 +16,14 @@
     "eslint": "^5.16.0",
     "eslint-config-sprite": "^1.0.6",
     "eslint-plugin-html": "^5.0.5",
-    "gifencoder": "^2.0.1",
     "jsdom": "^15.2.1",
     "jsdom-global": "^3.0.2",
     "three": "^0.125.2"
   },
   "dependencies": {
-    "canvas": "^2.6.0",
-    "gl": "^6.0.0"
+    "@napi-rs/canvas": "^0.1.44",
+    "add": "^2.0.6",
+    "gl": "^6.0.2",
+    "yarn": "^1.22.19"
   }
 }

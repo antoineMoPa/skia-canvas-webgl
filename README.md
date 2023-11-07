@@ -1,4 +1,14 @@
-# node-canvas-webgl
+#skia-canvas-webgl
+
+This is a fork of node-canvas-webgl with all dependencies on the cairo-based node-canvas removed.
+
+Modifications from node-canvas-webgl:
+
+ - GIFEncoder and code using it was removed, since it depended on `canvas` package.
+ - `canvas` is replaced with [Brooooooklyn/canvas](https://github.com/Brooooooklyn/canvas#skr-canvas).
+ - In canvas.js, I used composition instead of inheritance, because overriding getContext stopped working.
+
+#node-canvas-webgl
 
 Integration of [node-canvas](https://github.com/Automattic/node-canvas) and [headless-gl](https://github.com/stackgl/headless-gl).
 
