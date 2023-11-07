@@ -1,5 +1,5 @@
 {
-  "name": "node-canvas-webgl",
+  "name": "skia-canvas-webgl",
   "version": "0.2.9",
   "description": "Integration of node-canvas and headless-gl.",
   "main": "lib/index.js",
